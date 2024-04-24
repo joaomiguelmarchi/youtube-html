@@ -1,237 +1,129 @@
 <!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>YouTube Clone</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-
-<body>
-    <div class="sidebar">
-        <h1>YouTube</h1>
-        <ul>
-            <li><a href="#">Início</a></li>
-            <li><a href="#">Em alta</a></li>
-            <li><a href="#">Inscrições</a></li>
-            <li><a href="#">Biblioteca</a></li>
-        </ul>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Atividade 2</title>
+  </head>
+  <body>
+    <div id="barra_pesquisa">
+      <div id="icon"></div>
+      <input type="search" placeholder="Pesquisar..." style="height: 50%" />
+      <div id="avatar"></div>
     </div>
-    <div class="youtube_home">
-        <div class="header">
-            <div class="header_content">
-                <div class="search">
-                    <input type="text" placeholder="Pesquisar">
-                </div>
-                <button class="btn-login">
-                    Fazer login
-                </button>
-            </div>
+    <div id="pagina">
+      <div id="div_video_container">
+        <div class="video_principal">
+          <iframe
+            src="https://www.youtube.com/embed/WQ-mg59x9PU?si=qF9iqyesZiV0xYkY"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
         </div>
-        <div class="videos">
-            <div class="video_list">
-                <div class="video">
-                    <iframe width="260" height="115" src="https://www.youtube.com/embed/J4QRePByLDk?si=djkD6Y0jlo5xFrpw"
-                        title="YouTube video player" frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                        referrerpolicy="strict-origin-when-cross-origin"></iframe>
-                    <p class="video_title">Descrição do vídeo.</p>
-                    <p class="video_author">Descrição do vídeo.</p>
-                </div>
-                <div class="video">
-                    <iframe width="260" height="115" src="https://www.youtube.com/embed/J4QRePByLDk?si=djkD6Y0jlo5xFrpw"
-                        title="YouTube video player" frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                        referrerpolicy="strict-origin-when-cross-origin"></iframe>
-                    <p class="video_title">Descrição do vídeo.</p>
-                    <p class="video_author">Descrição do vídeo.</p>
-                </div>
-                <div class="video">
-                    <iframe width="260" height="115" src="https://www.youtube.com/embed/f7ZAnCsKWGY?si=eSaFB64dB_3x8dNj"
-                        title="YouTube video player" frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                        referrerpolicy="strict-origin-when-cross-origin"></iframe>
-                    <p class="video_title">Descrição do vídeo.</p>
-                    <p class="video_author">Descrição do vídeo.</p>
-                </div>
-                <div class="video">
-                    <iframe width="260" height="115" src="https://www.youtube.com/embed/f7ZAnCsKWGY?si=eSaFB64dB_3x8dNj"
-                        title="YouTube video player" frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                        referrerpolicy="strict-origin-when-cross-origin"></iframe>
-                    <p class="video_title">Descrição do vídeo.</p>
-                    <p class="video_author">Descrição do vídeo.</p>
-                </div>
-            </div>
-            <div class="video_list">
-                <div class="video">
-                    <iframe width="260" height="115" src="https://www.youtube.com/embed/J4QRePByLDk?si=djkD6Y0jlo5xFrpw"
-                        title="YouTube video player" frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                        referrerpolicy="strict-origin-when-cross-origin"></iframe>
-                    <p class="video_title">Descrição do vídeo.</p>
-                    <p class="video_author">Descrição do vídeo.</p>
-                </div>
-                <div class="video">
-                    <iframe width="260" height="115" src="https://www.youtube.com/embed/f7ZAnCsKWGY?si=eSaFB64dB_3x8dNj"
-                        title="YouTube video player" frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                        referrerpolicy="strict-origin-when-cross-origin"></iframe>
-                    <p class="video_title">Descrição do vídeo.</p>
-                    <p class="video_author">Descrição do vídeo.</p>
-                </div>
-                <div class="video">
-                    <iframe width="260" height="115" src="https://www.youtube.com/embed/f7ZAnCsKWGY?si=eSaFB64dB_3x8dNj"
-                        title="YouTube video player" frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                        referrerpolicy="strict-origin-when-cross-origin"></iframe>
-                    <p class="video_title">Descrição do vídeo.</p>
-                    <p class="video_author">Descrição do vídeo.</p>
-                </div>
-            </div>
-            <div class="video_list">
-                <div class="video">
-                    <iframe width="260" height="115" src="https://www.youtube.com/embed/J4QRePByLDk?si=djkD6Y0jlo5xFrpw"
-                        title="YouTube video player" frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                        referrerpolicy="strict-origin-when-cross-origin"></iframe>
-                    <p class="video_title">Descrição do vídeo.</p>
-                    <p class="video_author">Descrição do vídeo.</p>
-                </div>
-                <div class="video">
-                    <iframe width="260" height="115" src="https://www.youtube.com/embed/f7ZAnCsKWGY?si=eSaFB64dB_3x8dNj"
-                        title="YouTube video player" frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                        referrerpolicy="strict-origin-when-cross-origin"></iframe>
-                    <p class="video_title">Descrição do vídeo.</p>
-                    <p class="video_author">Descrição do vídeo.</p>
-                </div>
-                <div class="video">
-                    <iframe width="260" height="115" src="https://www.youtube.com/embed/f7ZAnCsKWGY?si=eSaFB64dB_3x8dNj"
-                        title="YouTube video player" frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                        referrerpolicy="strict-origin-when-cross-origin"></iframe>
-                    <p class="video_title">Descrição do vídeo.</p>
-                    <p class="video_author">Descrição do vídeo.</p>
-                </div>
-            </div>
-            <div class="video_list">
-                <div class="video">
-                    <iframe width="260" height="115" src="https://www.youtube.com/embed/J4QRePByLDk?si=djkD6Y0jlo5xFrpw"
-                        title="YouTube video player" frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                        referrerpolicy="strict-origin-when-cross-origin"></iframe>
-                    <p class="video_title">Descrição do vídeo.</p>
-                    <p class="video_author">Descrição do vídeo.</p>
-                </div>
-                <div class="video">
-                    <iframe width="260" height="115" src="https://www.youtube.com/embed/f7ZAnCsKWGY?si=eSaFB64dB_3x8dNj"
-                        title="YouTube video player" frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                        referrerpolicy="strict-origin-when-cross-origin"></iframe>
-                    <p class="video_title">Descrição do vídeo.</p>
-                    <p class="video_author">Descrição do vídeo.</p>
-                </div>
-                <div class="video">
-                    <iframe width="260" height="115" src="https://www.youtube.com/embed/f7ZAnCsKWGY?si=eSaFB64dB_3x8dNj"
-                        title="YouTube video player" frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                        referrerpolicy="strict-origin-when-cross-origin"></iframe>
-                    <p class="video_title">Descrição do vídeo.</p>
-                    <p class="video_author">Descrição do vídeo.</p>
-                </div>
-            </div>
-            <div class="video_list">
-                <div class="video">
-                    <iframe width="260" height="115" src="https://www.youtube.com/embed/J4QRePByLDk?si=djkD6Y0jlo5xFrpw"
-                        title="YouTube video player" frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                        referrerpolicy="strict-origin-when-cross-origin"></iframe>
-                    <p class="video_title">Descrição do vídeo.</p>
-                    <p class="video_author">Descrição do vídeo.</p>
-                </div>
-                <div class="video">
-                    <iframe width="260" height="115" src="https://www.youtube.com/embed/f7ZAnCsKWGY?si=eSaFB64dB_3x8dNj"
-                        title="YouTube video player" frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                        referrerpolicy="strict-origin-when-cross-origin"></iframe>
-                    <p class="video_title">Descrição do vídeo.</p>
-                    <p class="video_author">Descrição do vídeo.</p>
-                </div>
-                <div class="video">
-                    <iframe width="260" height="115" src="https://www.youtube.com/embed/f7ZAnCsKWGY?si=eSaFB64dB_3x8dNj"
-                        title="YouTube video player" frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                        referrerpolicy="strict-origin-when-cross-origin"></iframe>
-                    <p class="video_title">Descrição do vídeo.</p>
-                    <p class="video_author">Descrição do vídeo.</p>
-                </div>
-            </div>
-            <div class="video_list">
-                <div class="video">
-                    <iframe width="260" height="115" src="https://www.youtube.com/embed/J4QRePByLDk?si=djkD6Y0jlo5xFrpw"
-                        title="YouTube video player" frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                        referrerpolicy="strict-origin-when-cross-origin"></iframe>
-                    <p class="video_title">Descrição do vídeo.</p>
-                    <p class="video_author">Descrição do vídeo.</p>
-                </div>
-                <div class="video">
-                    <iframe width="260" height="115" src="https://www.youtube.com/embed/f7ZAnCsKWGY?si=eSaFB64dB_3x8dNj"
-                        title="YouTube video player" frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                        referrerpolicy="strict-origin-when-cross-origin"></iframe>
-                    <p class="video_title">Descrição do vídeo.</p>
-                    <p class="video_author">Descrição do vídeo.</p>
-                </div>
-                <div class="video">
-                    <iframe width="260" height="115" src="https://www.youtube.com/embed/f7ZAnCsKWGY?si=eSaFB64dB_3x8dNj"
-                        title="YouTube video player" frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                        referrerpolicy="strict-origin-when-cross-origin"></iframe>
-                    <p class="video_title">Descrição do vídeo.</p>
-                    <p class="video_author">Descrição do vídeo.</p>
-                </div>
-            </div>
+        <h2>COMO CRIAR UMA STRUCT - GOLANG AVANSSADO</h2>
+        <div id="video_principal_postador">
+          <div id="avatar"></div>
+          <h5>JMSM</h5>
         </div>
+        <pre>
+        Video postado em 17/02/2005
+        </pre>
+        <div class="comentario">
+          <div id="avatar"></div>
+          <div class="comentario_conteudo">
+              <p class="comentario_conteudo_autor">JMSM</p>
+              <p class="comentario_conteudo_texto">Show!!</p>
+          </div>
+        </div>        
+      </div>
+      <div id="div_videos_container">
+        <div class="video">
+          <div class="video_thub">
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/LytaPitIpgM?si=fQs3ZwTdC49XODyt"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <div class="video_texto">
+            <div class="video_titulo">Meu video favorito</div>
+            <div class="video_canal">JMSM</div>
+          </div>
+        </div>
+        <div class="video">
+          <div class="video_thub">
+            <iframe
+              src="https://www.youtube.com/embed/_Ks3Lu1HYhE?si=MZbaA0UIl2GuJS6g"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <div class="video_texto">
+            <div class="video_titulo">Minha musica favorita</div>
+            <div class="video_canal">JMSM</div>
+          </div>
+        </div>
+        <div class="video">
+          <div class="video_thub">
+            <iframe
+              src="https://www.youtube.com/embed/5IeLxGcKm-U?si=4LYcp3R9-Ci2rQeg"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <div class="video_texto">
+            <div class="video_titulo">Musica mais ouvida em 2023</div>
+            <div class="video_canal">JMSM</div>
+          </div>
+        </div>
+        <div class="video">
+          <div class="video_thub">
+            <iframe
+              src="https://www.youtube.com/embed/RIHExGaxfPE?si=taaKZfE5thSMgruI"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <div class="video_texto">
+            <div class="video_titulo">Meu ator favorito</div>
+            <div class="video_canal">JMSM</div>
+          </div>
+        </div>
+        <div class="video">
+          <div class="video_thub">
+            <iframe
+              src="https://www.youtube.com/embed/S3BPQWEZbgI?si=g0p6pwZWctCIpQkf"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <div class="video_texto">
+            <div class="video_titulo">Meu video do youtube</div>
+            <div class="video_canal">JMSM</div>
+          </div>
+        </div>
+      </div>
     </div>
-
-    <!-- <header>
-        <div class="container">
-            <h1>YouTube Clone</h1>
-        </div>
-    </header>
-    <div class="sidebar">
-        <div class="container">
-            <h2>Sidebar</h2>
-            <ul>
-                <li><a href="#">Início</a></li>
-                <li><a href="#">Em alta</a></li>
-                <li><a href="#">Inscrições</a></li>
-                <li><a href="#">Biblioteca</a></li>
-            </ul>
-        </div>
-    </div>
-    <main>
-        <div class="container">
-            <section class="video">
-                <h2>Título do Vídeo</h2>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/J4QRePByLDk?si=djkD6Y0jlo5xFrpw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                <p>Descrição do vídeo.</p>
-            </section>
-            <section class="video">
-                <h2>Título do Vídeo</h2>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/f7ZAnCsKWGY?si=eSaFB64dB_3x8dNj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                <p>Descrição do vídeo.</p>
-            </section>
-        </div>
-    </main>
-    <footer>
-        <div class="container">
-            <p>&copy; 2024 YouTube Clone</p>
-        </div>
-    </footer> -->
-</body>
-
+  </body>
 </html>

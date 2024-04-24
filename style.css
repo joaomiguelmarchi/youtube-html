@@ -1,0 +1,158 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    overflow-y: scroll;
+    background: linear-gradient(#161616, #020408);
+}
+#icon{
+    background-image: url(./utils/icone.png);
+    background-repeat: no-repeat;
+    background-size: 4vh;
+    width: 4vh;
+    height: 4vh;
+}
+#avatar{
+    background-image: url(./utils/avatar.png);
+    background-repeat: no-repeat;
+    background-size: 4vh;
+    width: 4vh;
+    height: 4vh;
+}
+#barra_pesquisa{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    height: 6%;
+    justify-content: space-evenly;
+    padding-top: 20px;
+}
+#barra_pesquisa > input{
+    border-radius: 40px;
+    border: 1px solid #2b2b2b;
+    color: #2b2b2b;
+    background-color: transparent;
+    padding: 10px;
+    min-width: 600px;
+}
+#barra_pesquisa > input:focus{
+    color: #FFFFFF;
+}
+#pagina{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 94%;
+}
+#div_video_container{
+    width: 65%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #d3d3d3;
+}
+h5{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #d3d3d3;
+}
+pre{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #d3d3d3;
+    background-color: #191b1d7e;
+    padding: 15px;
+    padding-left: 0;
+    border-radius: 20px;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #d3d3d3;
+}
+.comentario{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    margin-top: 5px;
+}
+
+.comentario_conteudo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+}
+
+.comentario_conteudo_autor{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #818181;
+    padding: 0;
+    margin: 0;
+    font-size: 8pt;
+}
+
+.comentario_conteudo_texto{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #c9c9c9;
+    padding: 0;
+    margin: 0;
+}
+
+#video_principal_postador{
+    width: 20%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px
+}
+.video_principal{
+    width: 100%;
+    height: 500px;
+}
+.video_principal > iframe {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+#div_videos_container{
+    width: 35%;
+}
+.video{
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+}
+.video_thub{
+    width: 50%;
+}
+.video_thub > iframe {
+    width: 300px;
+    height: 150px;
+    border-radius: 20px;
+}
+
+.video_texto{
+    display: flex;
+    flex-direction: column;
+}
+
+.video_titulo{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    margin-left: 1vw;
+}
+
+.video_canal{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #818181;
+    margin-left: 1vw;
+}
